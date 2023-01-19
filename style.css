@@ -5,13 +5,21 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+p {
+  padding: 8px 0px;
+}
 /* ALL DIVS GIVEN BORDER-BOX to avoid redundancy in code and to make formatting consistent when adding padding! */
 div {
   box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+button > a {
+  font-family: 'Libre Baskerville', sans-serif;
 }
 .first-container, .second-container, .third-container, .fourth-container {
   display: flex;
@@ -60,14 +68,14 @@ body {
 }
 .header a, .left-hero p {
     font-size: 18px;
-    color: #c0c2c6;
+    color: #94e0f4;
     text-decoration: none;
 }
 .left-hero p {
   margin-top: 0px;
 }
 .first-container, .footer {
-    background-color: #1F2937;
+    background-color: #063441;
 }
 .second-header {
   display: flex;
@@ -97,9 +105,10 @@ body {
   align-items: center;
   width: 180px;
   text-align: center;
+  gap: 20px;
 }
 .tank p {
-    color: #56606d;
+    color: #063441;
     font-size: 18px;
     margin: 5px;
 }
@@ -107,7 +116,7 @@ body {
     width: 180px;
     height: auto;
     border-radius: 15px;
-    border: solid 3px #3882F6;
+    border: solid 3px #0c6982;
 }
 
 .left-hero h1 {
@@ -122,7 +131,7 @@ body {
 }
 .second-header h2 {
     font-size: 36px;
-    color: #1F2937;
+    color: #063441;
     font-weight: 900;
 }
 
@@ -132,7 +141,7 @@ body {
 }
 .header h3 {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #94e0f4;
     margin: 0px;
     flex: none;
 }
@@ -141,19 +150,19 @@ body {
     font-style: italic;
     font-weight: 300;
     font-size: 36px;
-    color: #1F2937;
+    color: #063441;
     /* padding: 0px 110px; */
     margin: 0px;
 }
 .signature {
   display: flex;
   justify-content: flex-end;
-  padding-right: 32px;
+  padding: 20px 32px 0px 0px;
 
 }
 .signature h1 {
     font-size: 24px;
-    color: #1F2937;
+    color: #063441;
     margin: 0px;
 }
 /* .left-hero button {
@@ -161,7 +170,7 @@ body {
 } */
 
 .left-hero button, .blue-notice button {
-    background-color: #3882F6;
+    background-color: #0c6982;
     border: none;
     border-radius: 6px;
     padding: 7px 22px;
@@ -182,7 +191,7 @@ body {
   }
 
   .left-hero button:hover a {
-    color: #3882F6;
+    color: #0c6982;
   }
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
 
@@ -197,15 +206,15 @@ body {
 /* CHANGING LINK A COLOR WITH BUTTON BG ON HOVER */
   .blue-notice button:hover {
     background: #F9FAF8;
-    color: #3882F6;
+    color: #0c6982;
   }
 
   .blue-notice button:hover a {
-    color: #3882F6;
+    color: #0c6982;
   }
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
   .blue-notice {
-    background-color: #3882F6;
+    background-color: #0c6982;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -220,7 +229,7 @@ body {
  }
 
  .blue-notice p, .footer p {
-    color: #c0c2c6;
+    color: #94e0f4;
     font-size: 16px;
     margin: 0px;
  }
