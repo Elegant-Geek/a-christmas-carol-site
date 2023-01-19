@@ -39,7 +39,7 @@ button > a {
   display: flex;
   justify-content: space-between;
   gap: 25px;
-  padding: 16px 0px;
+  padding: 25px 0px 0px 0px;
 }
 .header ul {
   list-style-type: none;
@@ -68,7 +68,7 @@ button > a {
 }
 .header a, .left-hero p {
     font-size: 18px;
-    color: #94e0f4;
+    color: #74ccd4;
     text-decoration: none;
 }
 .left-hero p {
@@ -82,7 +82,7 @@ button > a {
   justify-content: center;
 }
 .second-container {
-  padding: 10px 0px 110px 0px;
+  padding: 20px 0px 80px 0px;
 }
 .third-container {
   background-color: #E5E7EB;
@@ -141,7 +141,7 @@ button > a {
 }
 .header h3 {
     font-size: 24px;
-    color: #94e0f4;
+    color: #74ccd4;
     margin: 0px;
     flex: none;
 }
@@ -229,7 +229,7 @@ button > a {
  }
 
  .blue-notice p, .footer p {
-    color: #94e0f4;
+    color: #74ccd4;
     font-size: 16px;
     margin: 0px;
  }
