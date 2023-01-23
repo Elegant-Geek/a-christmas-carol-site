@@ -73,7 +73,7 @@ button > a {
 
 .header a, .left-hero p {
     font-size: 18px;
-    color: #74ccd4;
+    color: #75dde7;
     text-decoration: none;
 }
 .left-hero p {
@@ -82,7 +82,7 @@ button > a {
 .first-container {
     /* background-color: #063441; */
     background: rgb(0,24,36);
-    background: linear-gradient(180deg, rgba(0,24,36,1) 0%, rgba(9,100,121,1) 48%, rgba(42,176,184,1) 100%);
+    background: linear-gradient(180deg, rgba(0,24,36,1) 0%, rgba(18,76,90,1) 52%, rgba(45,150,175,1) 100%);
 }
 .second-header {
   display: flex;
@@ -127,13 +127,12 @@ background-repeat:no-repeat;
 .tank p {
     color: #063441;
     font-size: 18px;
-    margin: 5px;
+    margin: 0px;
 }
 .tank img {
     width: 180px;
     height: auto;
     border-radius: 15px;
-    border: solid 3px #0d576b;
 }
 
 .left-hero h1 {
@@ -155,7 +154,7 @@ background-repeat:no-repeat;
 }
 .header h3 > a {
     font-size: 24px;
-    color: #74ccd4;
+    color: #75dde7;
     margin: 0px;
     flex: none;
 }
@@ -192,7 +191,14 @@ background-repeat:no-repeat;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
+  }
+
+  .left-hero button {
     width: 180px;
+  }
+
+  .blue-notice button {
+    width: 120px;
   }
 
   .left-hero button a, .blue-notice button a {
@@ -241,7 +247,7 @@ background-repeat:no-repeat;
  }
 
  .blue-notice p, .footer p, .footer a {
-    color: #74ccd4;
+    color: #75dde7;
     font-size: 16px;
     margin: 0px;
  }
@@ -252,9 +258,8 @@ background-repeat:no-repeat;
   justify-content: space-around;
   padding: 40px 0px;
   background: rgb(0,24,36);
-  background: linear-gradient(0deg, rgba(0,24,36,1) 0%, rgba(9,100,121,1) 58%, rgba(42,176,184,1) 100%);
+  background: linear-gradient(0deg, rgba(0,24,36,1) 0%, rgba(18,76,90,1) 52%, rgba(45,150,175,1) 100%);
  }
-
 
  .social-media-container {
   display: flex;
