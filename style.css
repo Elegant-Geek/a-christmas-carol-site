@@ -116,7 +116,7 @@ button > a {
     width: 180px;
     height: auto;
     border-radius: 15px;
-    border: solid 3px #0c6982;
+    border: solid 3px #0d576b;
 }
 
 .left-hero h1 {
@@ -170,7 +170,7 @@ button > a {
 } */
 
 .left-hero button, .blue-notice button {
-    background-color: #0c6982;
+    background-color: #0d576b;
     border: none;
     border-radius: 6px;
     padding: 7px 22px;
@@ -191,7 +191,7 @@ button > a {
   }
 
   .left-hero button:hover a {
-    color: #0c6982;
+    color: #0d576b;
   }
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
 
@@ -206,15 +206,15 @@ button > a {
 /* CHANGING LINK A COLOR WITH BUTTON BG ON HOVER */
   .blue-notice button:hover {
     background: #F9FAF8;
-    color: #0c6982;
+    color: #0d576b;
   }
 
   .blue-notice button:hover a {
-    color: #0c6982;
+    color: #0d576b;
   }
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
   .blue-notice {
-    background-color: #0c6982;
+    background-color: #0d576b;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -228,7 +228,7 @@ button > a {
     margin: 0px;
  }
 
- .blue-notice p, .footer p {
+ .blue-notice p, .footer p, .footer a {
     color: #74ccd4;
     font-size: 16px;
     margin: 0px;
@@ -237,6 +237,15 @@ button > a {
  .footer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 40px 0px;
  }
+
+ .footer a {
+  text-decoration: none;
+ }
+
+ .social-media-container {
+  display: flex;
+  gap: 15px;
+}
