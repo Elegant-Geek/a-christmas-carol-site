@@ -37,6 +37,7 @@ button > a {
   padding: 90px 0px 90px 0px;
   flex-wrap: wrap; 
   justify-content: center;
+  align-items: flex-start;
 }
 .header {
   display: flex;
@@ -67,8 +68,8 @@ button > a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
 }
+
 .header a, .left-hero p {
     font-size: 18px;
     color: #74ccd4;
