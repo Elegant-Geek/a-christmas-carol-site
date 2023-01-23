@@ -74,8 +74,10 @@ button > a {
 .left-hero p {
   margin-top: 0px;
 }
-.first-container, .footer {
-    background-color: #063441;
+.first-container {
+    /* background-color: #063441; */
+    background: rgb(0,24,36);
+    background: linear-gradient(180deg, rgba(0,24,36,1) 0%, rgba(9,100,121,1) 48%, rgba(42,176,184,1) 100%);
 }
 .second-header {
   display: flex;
@@ -239,6 +241,8 @@ button > a {
   align-items: center;
   justify-content: space-around;
   padding: 40px 0px;
+  background: rgb(0,24,36);
+  background: linear-gradient(0deg, rgba(0,24,36,1) 0%, rgba(9,100,121,1) 58%, rgba(42,176,184,1) 100%);
  }
 
  .footer a {
