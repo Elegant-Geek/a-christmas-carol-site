@@ -5,7 +5,10 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
 p {
   padding: 8px 0px;
 }
@@ -55,9 +58,9 @@ button > a {
   flex-direction: column;
   /* TIP! Justify content is used to vertically align in this case since flex direction is column. */
   justify-content: center;
-  padding-right: 70px;
+  padding-right: 30px;
   padding-bottom: 30px;
-  max-width: 493px;
+  max-width: 453px;
 }
 .right-hero {
   display: flex;
@@ -127,10 +130,7 @@ button > a {
     font-weight: 900;
     margin: 0px;
 }
-.header img {
-    width: auto;
-    height: 50px;
-}
+
 .second-header h2 {
     font-size: 36px;
     color: #063441;
@@ -184,7 +184,6 @@ button > a {
   }
 
   .left-hero button a, .blue-notice button a {
-    text-decoration: none;
     color: #F9FAF8;
   }
 /* CHANGING LINK A COLOR WITH BUTTON BG ON HOVER */
@@ -202,7 +201,6 @@ button > a {
   }
 
   .blue-notice button a {
-    text-decoration: none;
     color: #F9FAF8;
   }
 /* CHANGING LINK A COLOR WITH BUTTON BG ON HOVER */
@@ -245,9 +243,6 @@ button > a {
   background: linear-gradient(0deg, rgba(0,24,36,1) 0%, rgba(9,100,121,1) 58%, rgba(42,176,184,1) 100%);
  }
 
- .footer a {
-  text-decoration: none;
- }
 
  .social-media-container {
   display: flex;
